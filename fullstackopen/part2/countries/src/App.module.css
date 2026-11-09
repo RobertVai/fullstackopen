@@ -1,0 +1,23 @@
+.page { width: min(760px, 100% - 2rem); margin: 3rem auto; }
+.heading { margin-bottom: 2rem; }
+.heading span { color: #2563eb; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; }
+.heading h1 { font-size: 2.5rem; margin: 0.25rem 0; }
+.heading p { color: #64748b; }
+.field {
+  display: grid;
+  gap: 0.4rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+
+  input { width: 100%; padding: 0.8rem; border: 1px solid #cbd5e1; border-radius: 8px; }
+}
+.panel { background: white; border: 1px solid #e2e8f0; border-radius: 14px; padding: 1.5rem; }
+.country-list {
+  list-style: none;
+  padding: 0;
+
+  li { display: flex; align-items: center; justify-content: space-between; gap: 1rem; border-bottom: 1px solid #e2e8f0; padding: 0.6rem 0; }
+}
+.back { margin-bottom: 1.25rem; background: #e2e8f0; color: #0f172a; }
+.back:hover { background: #cbd5e1; }
+@media (max-width: 480px) { .page { margin: 1.5rem auto; } .panel { padding: 1rem; } }

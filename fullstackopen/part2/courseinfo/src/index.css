@@ -1,0 +1,3 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #f8fafc; color: #0f172a; font-family: system-ui, sans-serif; }
+.page { width: min(800px, 100% - 2rem); margin: 3rem auto; display: grid; gap: 1rem; }
