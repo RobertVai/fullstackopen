@@ -1,0 +1,27 @@
+{
+  "name": "fullstackopen-part3-phonebook",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full Stack Open Part 3 Phonebook — Express, MongoDB and React",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "build:ui": "npm --prefix frontend run build",
+    "lint": "eslint .",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=22.3.0" },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.11.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "eslint": "^9.22.0",
+    "globals": "^16.0.0"
+  }
+}

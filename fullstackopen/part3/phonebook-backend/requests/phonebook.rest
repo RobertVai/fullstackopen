@@ -1,0 +1,31 @@
+@base = http://localhost:3001
+
+### List contacts
+GET {{base}}/api/persons
+
+### Database info
+GET {{base}}/info
+
+### Create a contact
+POST {{base}}/api/persons
+Content-Type: application/json
+
+{
+  "name": "Ada Lovelace",
+  "number": "040-1234567"
+}
+
+### Use an id returned by the POST request
+GET {{base}}/api/persons/REPLACE_WITH_REAL_ID
+
+### Update contact
+PUT {{base}}/api/persons/REPLACE_WITH_REAL_ID
+Content-Type: application/json
+
+{
+  "name": "Ada Lovelace",
+  "number": "040-7654321"
+}
+
+### Delete contact
+DELETE {{base}}/api/persons/REPLACE_WITH_REAL_ID
